@@ -8,8 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import com.example.library.R;
-import com.mrym.common.activity.base.BaseActivity;
+import com.calypso.library.activity.base.BaseActivity;
 
 
 /**

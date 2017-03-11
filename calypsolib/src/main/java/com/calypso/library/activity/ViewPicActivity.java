@@ -16,15 +16,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.library.R;
-import com.mrym.common.activity.base.BaseActivity;
-import com.mrym.common.rx.retrofit.ObservableProvider;
-import com.mrym.common.rx.retrofit.subscriber.DownLoadSubscribe;
-import com.mrym.common.utils.FileUtils;
-import com.mrym.common.utils.Logger;
-import com.mrym.common.utils.SnackBarUtils;
-import com.mrym.common.utils.SystemShareUtils;
-import com.mrym.common.utils.glide.ImageLoaderUtils;
+
+import com.calypso.library.R;
+import com.calypso.library.activity.base.BaseActivity;
+import com.calypso.library.rx.retrofit.ObservableProvider;
+import com.calypso.library.rx.retrofit.subscriber.DownLoadSubscribe;
+import com.calypso.library.utils.FileUtils;
+import com.calypso.library.utils.Logger;
+import com.calypso.library.utils.SnackBarUtils;
+import com.calypso.library.utils.SystemShareUtils;
+import com.calypso.library.utils.glide.ImageLoaderUtils;
 
 import java.io.File;
 import java.util.ArrayList;
