@@ -1,6 +1,7 @@
 package com.calypso.library.rx.retrofit.subscriber;
 
-import com.mrym.common.rx.retrofit.HttpResult;
+
+import com.calypso.library.rx.retrofit.HttpResult;
 
 import rx.Subscriber;
 

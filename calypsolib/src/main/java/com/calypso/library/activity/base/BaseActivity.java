@@ -9,6 +9,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 
+import com.calypso.library.R;
+import com.calypso.library.utils.Logger;
+import com.calypso.library.utils.StatusBarCompat;
+import com.calypso.library.utils.ToastUitl;
+import com.calypso.library.view.widget.LoadingDialog;
+
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
+
 
 /**
  * Created by Jian on 2016/12/16.

@@ -1,8 +1,8 @@
 package com.calypso.library.rx;
 
+import com.calypso.library.rx.okhttp.OkHttpProvider;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.mrym.common.rx.okhttp.OkHttpProvider;
 
 import java.lang.reflect.Field;
 

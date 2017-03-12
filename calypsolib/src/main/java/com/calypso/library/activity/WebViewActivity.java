@@ -10,11 +10,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.example.library.R;
-import com.mrym.common.activity.base.BaseActivity;
-import com.mrym.common.fragment.WebViewFragment;
-import com.mrym.common.utils.ClipboardUtils;
-import com.mrym.common.utils.SystemShareUtils;
+import com.calypso.library.R;
+import com.calypso.library.activity.base.BaseActivity;
+import com.calypso.library.fragment.WebViewFragment;
+import com.calypso.library.utils.ClipboardUtils;
+import com.calypso.library.utils.SystemShareUtils;
 
 
 /**

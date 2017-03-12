@@ -5,7 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.BatteryManager;
 
-import com.mrym.common.utils.Logger;
+import com.calypso.library.utils.Logger;
+
 
 /**
  * Created by Jian on 2016/10/09.

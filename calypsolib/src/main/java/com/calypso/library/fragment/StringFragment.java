@@ -2,7 +2,7 @@ package com.calypso.library.fragment;
 
 import android.widget.TextView;
 
-import com.example.library.R;
+import com.calypso.library.R;
 
 
 /**

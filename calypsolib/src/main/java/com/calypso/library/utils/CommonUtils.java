@@ -13,7 +13,7 @@ import android.os.Environment;
 import android.os.Vibrator;
 import android.view.inputmethod.InputMethodManager;
 
-import com.example.library.R;
+import com.calypso.library.R;
 
 
 /**

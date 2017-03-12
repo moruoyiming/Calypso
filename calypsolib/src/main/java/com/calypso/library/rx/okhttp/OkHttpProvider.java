@@ -1,9 +1,9 @@
 package com.calypso.library.rx.okhttp;
 
+import com.calypso.library.BaseApplication;
+import com.calypso.library.utils.Logger;
+import com.calypso.library.utils.NetworkUtil;
 import com.jakewharton.rxbinding.internal.Preconditions;
-import com.mrym.common.BaseApplication;
-import com.mrym.common.utils.Logger;
-import com.mrym.common.utils.NetworkUtil;
 
 import java.io.File;
 import java.io.IOException;

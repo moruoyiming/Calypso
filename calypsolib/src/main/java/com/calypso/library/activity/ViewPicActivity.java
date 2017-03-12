@@ -4,8 +4,6 @@ package com.calypso.library.activity;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.MediaScannerConnection;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
@@ -19,13 +17,8 @@ import android.widget.TextView;
 
 import com.calypso.library.R;
 import com.calypso.library.activity.base.BaseActivity;
-import com.calypso.library.rx.retrofit.ObservableProvider;
-import com.calypso.library.rx.retrofit.subscriber.DownLoadSubscribe;
 import com.calypso.library.utils.FileUtils;
 import com.calypso.library.utils.Logger;
-import com.calypso.library.utils.SnackBarUtils;
-import com.calypso.library.utils.SystemShareUtils;
-import com.calypso.library.utils.glide.ImageLoaderUtils;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -142,7 +135,7 @@ public class ViewPicActivity extends BaseActivity {
             photoView.setLayoutParams(layoutParams);
 
             //setUpPhotoViewAttacher(photoView);
-            ImageLoaderUtils.display(context,photoView, mUrlList.get(position));
+//            ImageLoaderUtils.display(context,photoView, mUrlList.get(position));
 
             container.addView(photoView);
 
@@ -184,33 +177,33 @@ public class ViewPicActivity extends BaseActivity {
     public void downloadPicture(final int action) {
         mSavePath = FileUtils.getSaveImagePath(this) + File.separator + FileUtils.getFileName(mUrlList.get(0));
         Logger.i(this, mSavePath);
-        ObservableProvider.getDefault().download(mUrlList.get(0), new DownLoadSubscribe(FileUtils.getSaveImagePath(this), FileUtils.getFileName(mUrlList.get(0))) {
-            @Override
-            public void onCompleted(File file) {
-                if (action == 0) {
-                    SnackBarUtils.makeLong(mViewPager, "已保存至相册").info();
-                    MediaScannerConnection.scanFile(ViewPicActivity.this, new String[]{
-                                    mSavePath},
-                            null, null);
-                } else {
-                    SystemShareUtils.shareImage(ViewPicActivity.this, Uri.parse(file.getAbsolutePath()));
-                }
-            }
-
-            @Override
-            public void onError(Throwable e) {
-                //Log.i("ThreadInfo", "onError:" + Thread.currentThread().getName());
-                if (action == 0)
-                    SnackBarUtils.makeLong(mViewPager, "保存失败:" + e).danger();
-            }
-
-            @Override
-            public void onProgress(double progress, long downloadByte, long totalByte) {
-                // Log.i("ThreadInfo", "onProgress:" + Thread.currentThread().getName());
-                Logger.i(this, "totalByte:" + totalByte + " downloadedByte:" + downloadByte + " progress:" + progress);
-
-            }
-        });
+//        ObservableProvider.getDefault().download(mUrlList.get(0), new DownLoadSubscribe(FileUtils.getSaveImagePath(this), FileUtils.getFileName(mUrlList.get(0))) {
+//            @Override
+//            public void onCompleted(File file) {
+//                if (action == 0) {
+//                    SnackBarUtils.makeLong(mViewPager, "已保存至相册").info();
+//                    MediaScannerConnection.scanFile(ViewPicActivity.this, new String[]{
+//                                    mSavePath},
+//                            null, null);
+//                } else {
+//                    SystemShareUtils.shareImage(ViewPicActivity.this, Uri.parse(file.getAbsolutePath()));
+//                }
+//            }
+//
+//            @Override
+//            public void onError(Throwable e) {
+//                //Log.i("ThreadInfo", "onError:" + Thread.currentThread().getName());
+//                if (action == 0)
+//                    SnackBarUtils.makeLong(mViewPager, "保存失败:" + e).danger();
+//            }
+//
+//            @Override
+//            public void onProgress(double progress, long downloadByte, long totalByte) {
+//                // Log.i("ThreadInfo", "onProgress:" + Thread.currentThread().getName());
+//                Logger.i(this, "totalByte:" + totalByte + " downloadedByte:" + downloadByte + " progress:" + progress);
+//
+//            }
+//        });
     }
 
     @Override

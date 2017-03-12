@@ -3,8 +3,9 @@ package com.calypso.library.config;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.mrym.common.BaseApplication;
-import com.mrym.common.utils.PrefUtils;
+
+import com.calypso.library.BaseApplication;
+import com.calypso.library.utils.PrefUtils;
 
 import java.io.File;
 

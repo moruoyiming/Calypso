@@ -8,7 +8,8 @@ import android.os.SystemClock;
 import android.provider.Settings;
 import android.util.Log;
 
-import com.mrym.common.BaseApplication;
+
+import com.calypso.library.BaseApplication;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

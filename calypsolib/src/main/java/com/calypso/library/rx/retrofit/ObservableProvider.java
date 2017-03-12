@@ -1,12 +1,12 @@
 
 package com.calypso.library.rx.retrofit;
 
-import com.mrym.common.rx.ServiceFactory;
-import com.mrym.common.rx.retrofit.func.ResultFunc;
-import com.mrym.common.rx.retrofit.func.RetryWhenNetworkException;
-import com.mrym.common.rx.retrofit.func.StringFunc;
-import com.mrym.common.rx.retrofit.subscriber.DownLoadSubscribe;
-import com.mrym.common.rx.service.CommonService;
+import com.calypso.library.rx.ServiceFactory;
+import com.calypso.library.rx.retrofit.func.ResultFunc;
+import com.calypso.library.rx.retrofit.func.RetryWhenNetworkException;
+import com.calypso.library.rx.retrofit.func.StringFunc;
+import com.calypso.library.rx.retrofit.subscriber.DownLoadSubscribe;
+import com.calypso.library.rx.service.CommonService;
 
 import okhttp3.ResponseBody;
 import rx.Observable;

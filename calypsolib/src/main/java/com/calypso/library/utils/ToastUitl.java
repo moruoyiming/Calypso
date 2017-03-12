@@ -9,8 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.library.R;
-import com.mrym.common.BaseApplication;
+import com.calypso.library.BaseApplication;
+import com.calypso.library.R;
 
 
 /**

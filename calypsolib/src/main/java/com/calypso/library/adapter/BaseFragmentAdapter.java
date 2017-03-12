@@ -4,7 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.mrym.common.utils.CollectionUtils;
+
+import com.calypso.library.utils.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.List;

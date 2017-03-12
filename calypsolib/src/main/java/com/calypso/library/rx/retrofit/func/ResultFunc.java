@@ -1,9 +1,7 @@
 package com.calypso.library.rx.retrofit.func;
 
-
-import com.mrym.common.rx.json.JsonConvert;
-import com.mrym.common.rx.retrofit.HttpResult;
-
+import com.calypso.library.rx.json.JsonConvert;
+import com.calypso.library.rx.retrofit.HttpResult;
 import rx.functions.Func1;
 
 /**
