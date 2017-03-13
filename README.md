@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
       ...
-      compile 'com.luffykou:android-common-utils:1.1.3'
+      compile 'com.github.moruoyiming:Calypso:1.0.2'
 }
 ```
 
