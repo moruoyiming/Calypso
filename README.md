@@ -10,7 +10,11 @@ To use this library your `minSdkVersion` must be >= 11.
 In your build.gradle :
 
 ```gradle
-
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
 dependencies {
       ...
       compile 'com.github.moruoyiming:Calypso:1.0.2'
