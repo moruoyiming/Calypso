@@ -15,8 +15,8 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.example.library.R;
-import com.mrym.common.view.xrecyclerview.progressindicator.AVLoadingIndicatorView;
+import com.calypso.library.R;
+import com.calypso.library.view.xrecyclerview.progressindicator.AVLoadingIndicatorView;
 
 
 public class ArrowRefreshHeader extends LinearLayout implements BaseRefreshHeader {

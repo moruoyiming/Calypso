@@ -14,7 +14,8 @@ import android.service.notification.StatusBarNotification;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.mrym.common.BaseApplication;
+import com.calypso.library.BaseApplication;
+
 
 /**
  * Created by Jian on 2017/01/02.

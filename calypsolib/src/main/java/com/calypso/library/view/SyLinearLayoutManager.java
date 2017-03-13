@@ -6,7 +6,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.mrym.common.utils.Logger;
+import com.calypso.library.utils.Logger;
+
 
 /**
  * 项目名称：SigmaClassBoard

@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.library.R;
+import com.calypso.library.R;
+
 
 /**
  * 弹窗浮动加载进度条

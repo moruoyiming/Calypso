@@ -4,8 +4,9 @@ import android.app.Application;
 import android.os.Build;
 import android.os.Environment;
 
-import com.mrym.common.activity.base.AppManager;
-import com.mrym.common.utils.CrashHandler;
+
+import com.calypso.library.activity.base.AppManager;
+import com.calypso.library.utils.CrashHandler;
 
 import java.io.File;
 
