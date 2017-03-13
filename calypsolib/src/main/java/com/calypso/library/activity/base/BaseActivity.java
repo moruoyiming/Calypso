@@ -229,35 +229,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
     }
 
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//        Logger.d("---------onStart");
-//    }
-//
-//    @Override
-//    protected void onResume() {
-//        super.onResume();
-//        Logger.d("---------onResume");
-//    }
-//
-//    @Override
-//    protected void onStop() {
-//        super.onResume();
-//        Logger.d("---------onStop");
-//    }
-//
-//    @Override
-//    protected void onPause() {
-//        super.onPause();
-//        Logger.d("---------onPause");
-//    }
-//
-//    @Override
-//    protected void onRestart() {
-//        super.onRestart();
-//        Logger.d("---------onRestart");
-//    }
 
     @Override
     protected void onDestroy() {
