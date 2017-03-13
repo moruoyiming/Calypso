@@ -1,7 +1,7 @@
 # Calypsolib项目简介
 Calypsolib项目是一系列通用类、辅助类、工具类及基础Activity,Fragment的集合.
 
-##Such as Log,Averager,AlarrmUtils,AndroidUtils,ArrayUtil,
+Such as Log,Averager,AlarrmUtils,AndroidUtils,ArrayUtil,PackageUtil, RandomUtil, ShellUtil, TelephoneUtil, etc.
 
 ## Setup
 
