@@ -2,7 +2,6 @@
 Calypsolib项目是一系列通用类、辅助类、工具类及基础Activity,Fragment的集合.
 部分util类参考[android-common](https://github.com/litesuits)
 
-Such as Log,Averager,AlarrmUtils,AndroidUtils,ArrayUtil,PackageUtil, RandomUtil, ShellUtil, TelephoneUtil, etc.
 
 ## Setup
 
@@ -22,10 +21,6 @@ dependencies {
 }
 ```
 
-## Bugs and Feedback
-
-For bugs, feature requests, and discussion please use [GitHub Issues][issues].
-For general usage questions please use the [mailing list][list] or [StackOverflow][so].
 
 ### License
 
