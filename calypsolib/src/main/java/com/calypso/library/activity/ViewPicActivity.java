@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 import com.calypso.library.R;
 import com.calypso.library.activity.base.BaseActivity;
-import com.calypso.library.utils.FileUtils;
+import com.calypso.library.utils.FileUtil;
 import com.calypso.library.utils.Logger;
 
 import java.io.File;
@@ -175,18 +175,18 @@ public class ViewPicActivity extends BaseActivity {
      * @param action 0:save 1:share
      */
     public void downloadPicture(final int action) {
-        mSavePath = FileUtils.getSaveImagePath(this) + File.separator + FileUtils.getFileName(mUrlList.get(0));
+        mSavePath = FileUtil.getSaveImagePath(this) + File.separator + FileUtil.getFileName(mUrlList.get(0));
         Logger.i(this, mSavePath);
-//        ObservableProvider.getDefault().download(mUrlList.get(0), new DownLoadSubscribe(FileUtils.getSaveImagePath(this), FileUtils.getFileName(mUrlList.get(0))) {
+//        ObservableProvider.getDefault().download(mUrlList.get(0), new DownLoadSubscribe(FileUtil.getSaveImagePath(this), FileUtil.getFileName(mUrlList.get(0))) {
 //            @Override
 //            public void onCompleted(File file) {
 //                if (action == 0) {
-//                    SnackBarUtils.makeLong(mViewPager, "已保存至相册").info();
+//                    SnackBarUtil.makeLong(mViewPager, "已保存至相册").info();
 //                    MediaScannerConnection.scanFile(ViewPicActivity.this, new String[]{
 //                                    mSavePath},
 //                            null, null);
 //                } else {
-//                    SystemShareUtils.shareImage(ViewPicActivity.this, Uri.parse(file.getAbsolutePath()));
+//                    SystemShareUtil.shareImage(ViewPicActivity.this, Uri.parse(file.getAbsolutePath()));
 //                }
 //            }
 //
@@ -194,7 +194,7 @@ public class ViewPicActivity extends BaseActivity {
 //            public void onError(Throwable e) {
 //                //Log.i("ThreadInfo", "onError:" + Thread.currentThread().getName());
 //                if (action == 0)
-//                    SnackBarUtils.makeLong(mViewPager, "保存失败:" + e).danger();
+//                    SnackBarUtil.makeLong(mViewPager, "保存失败:" + e).danger();
 //            }
 //
 //            @Override

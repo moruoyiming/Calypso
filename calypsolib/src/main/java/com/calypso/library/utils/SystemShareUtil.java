@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public class SystemShareUtils {
+public class SystemShareUtil {
 
     public static void shareText(Context ctx, String text) {
         Intent sendIntent = new Intent();

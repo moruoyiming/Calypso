@@ -10,7 +10,7 @@ import android.util.TypedValue;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public class ViewUtils {
+public class ViewUtil {
     //0,1dp = 0.75px  320*240
     //1,1dp = 1px  480*320
     //2,1dp = 1.5px 800*480  3.7英寸--4.1英寸

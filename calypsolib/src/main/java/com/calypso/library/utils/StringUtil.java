@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public class StringUtils {
+public class StringUtil {
 
     /**
      * 将字符串进行md5转换
@@ -181,10 +181,10 @@ public class StringUtils {
      * @param actual
      * @param expected
      * @return
-     * @see ObjectUtils#isEquals(Object, Object)
+     * @see ObjectUtil#isEquals(Object, Object)
      */
     public static boolean isEquals(String actual, String expected) {
-        return ObjectUtils.isEquals(actual, expected);
+        return ObjectUtil.isEquals(actual, expected);
     }
 
     /**
@@ -344,7 +344,7 @@ public class StringUtils {
      * @return
      */
     public static String htmlEscapeCharsToString(String source) {
-        return StringUtils.isEmpty(source) ? source : source.replaceAll("&lt;", "<").replaceAll("&gt;", ">")
+        return StringUtil.isEmpty(source) ? source : source.replaceAll("&lt;", "<").replaceAll("&gt;", ">")
                 .replaceAll("&amp;", "&").replaceAll("&quot;", "\"");
     }
 

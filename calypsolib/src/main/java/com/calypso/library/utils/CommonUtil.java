@@ -21,7 +21,7 @@ import com.calypso.library.R;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public class CommonUtils {
+public class CommonUtil {
     /**
      * 是否存在外部存储
      *

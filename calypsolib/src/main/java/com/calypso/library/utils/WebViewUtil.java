@@ -11,7 +11,7 @@ import android.webkit.WebView;
  * Some utils of WebView
  */
 
-public class WebViewUtils {
+public class WebViewUtil {
 
     /**
      * A webview setting which enable JavaScript ,DomStorage and file access.

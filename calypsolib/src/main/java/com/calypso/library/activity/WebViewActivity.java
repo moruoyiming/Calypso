@@ -13,8 +13,8 @@ import android.view.View;
 import com.calypso.library.R;
 import com.calypso.library.activity.base.BaseActivity;
 import com.calypso.library.fragment.WebViewFragment;
-import com.calypso.library.utils.ClipboardUtils;
-import com.calypso.library.utils.SystemShareUtils;
+import com.calypso.library.utils.ClipboardUtil;
+import com.calypso.library.utils.SystemShareUtil;
 
 
 /**
@@ -91,11 +91,11 @@ public class WebViewActivity extends BaseActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_copy) {
-            ClipboardUtils.setText(this, mUrl);
+            ClipboardUtil.setText(this, mUrl);
             Snackbar.make(mToolbar, "已复制到剪切板", Snackbar.LENGTH_SHORT).show();
             return true;
         } else if (id == R.id.action_share) {
-            SystemShareUtils.shareText(this, "【" + mTitle + "】链接:" + mUrl);
+            SystemShareUtil.shareText(this, "【" + mTitle + "】链接:" + mUrl);
         }
 
         return super.onOptionsItemSelected(item);

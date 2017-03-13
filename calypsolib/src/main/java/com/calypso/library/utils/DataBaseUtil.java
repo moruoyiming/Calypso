@@ -14,11 +14,11 @@ import java.io.InputStream;
  * Github: https://github.com/moruoyiming
  * Some utils about database like getting or creating database.
  */
-public class DataBaseUtils {
+public class DataBaseUtil {
 
     public static void copyDatabase(Context context, File dbFile, String databaseName) throws IOException {
         InputStream stream = context.getAssets().open(databaseName);
-        FileUtils.writeFile(dbFile, stream);
+        FileUtil.writeFile(dbFile, stream);
         stream.close();
     }
 

@@ -25,7 +25,7 @@ import java.io.IOException;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public class BitmapUtils {
+public class BitmapUtil {
 
     /**
      * 获取图片的旋转角度

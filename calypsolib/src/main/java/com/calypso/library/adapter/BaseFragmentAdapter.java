@@ -5,7 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 
-import com.calypso.library.utils.CollectionUtils;
+import com.calypso.library.utils.CollectionUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +39,7 @@ public class BaseFragmentAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return !CollectionUtils.isNullOrEmpty(mTitles) ? mTitles.get(position) : "";
+        return !CollectionUtil.isNullOrEmpty(mTitles) ? mTitles.get(position) : "";
     }
 
     @Override

@@ -25,9 +25,9 @@ import java.text.DecimalFormat;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public class FileUtils {
+public class FileUtil {
 
-    private static String TAG = "FileUtils";
+    private static String TAG = "FileUtil";
     private static String FILE_WRITING_ENCODING = "UTF-8";
     private static String FILE_READING_ENCODING = "UTF-8";
 

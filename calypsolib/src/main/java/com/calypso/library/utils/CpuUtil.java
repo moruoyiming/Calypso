@@ -34,7 +34,7 @@ public class CpuUtil {
      * Print cpu info.
      */
     public static String printCpuInfo() {
-        String info = FileUtils.getFileOutputString(CPU_INFO_PATH);
+        String info = FileUtil.getFileOutputString(CPU_INFO_PATH);
         Log.i(TAG, "_______  CPU :   \n" + info);
         return info;
     }
@@ -114,7 +114,7 @@ public class CpuUtil {
      */
     public static long getCurrentFreqency() {
         try {
-            return Long.parseLong(FileUtils.getFileOutputString(CPU_FREQ_CUR_PATH).trim());
+            return Long.parseLong(FileUtil.getFileOutputString(CPU_FREQ_CUR_PATH).trim());
         } catch (Exception e) {
             e.printStackTrace();
         }

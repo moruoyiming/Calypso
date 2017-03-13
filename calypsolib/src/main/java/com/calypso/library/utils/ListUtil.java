@@ -10,12 +10,12 @@ import java.util.List;
  * 
  * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2011-7-22
  */
-public class ListUtils {
+public class ListUtil {
 
     /** default join separator **/
     public static final String DEFAULT_JOIN_SEPARATOR = ",";
 
-    private ListUtils() {
+    private ListUtil() {
         throw new AssertionError();
     }
 
@@ -80,7 +80,7 @@ public class ListUtils {
         }
 
         for (int i = 0; i < actual.size(); i++) {
-            if (!ObjectUtils.isEquals(actual.get(i), expected.get(i))) {
+            if (!ObjectUtil.isEquals(actual.get(i), expected.get(i))) {
                 return false;
             }
         }
@@ -217,19 +217,19 @@ public class ListUtils {
     }
 
     /**
-     * @see {@link ArrayUtils#getLast(Object[], Object, Object, boolean)} defaultValue is null, isCircle is true
+     * @see {@link ArrayUtil#getLast(Object[], Object, Object, boolean)} defaultValue is null, isCircle is true
      */
     @SuppressWarnings("unchecked")
     public static <V> V getLast(List<V> sourceList, V value) {
-        return (sourceList == null) ? null : (V)ArrayUtils.getLast(sourceList.toArray(), value, true);
+        return (sourceList == null) ? null : (V) ArrayUtil.getLast(sourceList.toArray(), value, true);
     }
 
     /**
-     * @see {@link ArrayUtils#getNext(Object[], Object, Object, boolean)} defaultValue is null, isCircle is true
+     * @see {@link ArrayUtil#getNext(Object[], Object, Object, boolean)} defaultValue is null, isCircle is true
      */
     @SuppressWarnings("unchecked")
     public static <V> V getNext(List<V> sourceList, V value) {
-        return (sourceList == null) ? null : (V)ArrayUtils.getNext(sourceList.toArray(), value, true);
+        return (sourceList == null) ? null : (V) ArrayUtil.getNext(sourceList.toArray(), value, true);
     }
 
     /**

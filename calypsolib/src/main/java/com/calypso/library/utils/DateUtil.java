@@ -13,7 +13,7 @@ import java.util.Locale;
  * Github: https://github.com/moruoyiming
  * Log日志的工具类
  */
-public class DateUtils {
+public class DateUtil {
     public static final String DATE_JFP_STR = "yyyyMM";
     public static final String DATE_FULL_STR = "yyyy-MM-dd HH:mm:ss";
     public static final String DATE_SMALL_STR = "yyyy-MM-dd";

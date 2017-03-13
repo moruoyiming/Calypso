@@ -5,7 +5,7 @@ import android.os.Looper;
 
 
 import com.calypso.library.BaseApplication;
-import com.calypso.library.utils.PrefUtils;
+import com.calypso.library.utils.PrefUtil;
 
 import java.io.File;
 
@@ -18,11 +18,11 @@ import java.io.File;
 public class SettingCenter {
 
     public static boolean getOnlyWifiLoadImage() {
-        return PrefUtils.getBoolean(BaseApplication.getInstance(), "getOnlyWifiLoadImage", false);
+        return PrefUtil.getBoolean(BaseApplication.getInstance(), "getOnlyWifiLoadImage", false);
     }
 
     public static void setOnlyWifiLoadImage(boolean isEnable) {
-        PrefUtils.putBoolean(BaseApplication.getInstance(), "getOnlyWifiLoadImage", isEnable);
+        PrefUtil.putBoolean(BaseApplication.getInstance(), "getOnlyWifiLoadImage", isEnable);
     }
 
     //region 缓存相关

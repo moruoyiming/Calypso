@@ -9,8 +9,8 @@ import android.preference.PreferenceManager;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public final class PrefUtils {
-    private PrefUtils() {
+public final class PrefUtil {
+    private PrefUtil() {
     }
 
     public static int getInt(Context context, final String key, int defaultValue) {

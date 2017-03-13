@@ -8,7 +8,7 @@ import android.view.View;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public class SnackBarUtils {
+public class SnackBarUtil {
     private static final int color_danger = 0XFFA94442;
     private static final int color_success = 0XFF3C763D;
     private static final int color_info = 0XFF31708F;
@@ -18,18 +18,18 @@ public class SnackBarUtils {
 
     private Snackbar mSnackbar;
 
-    private SnackBarUtils(Snackbar snackbar) {
+    private SnackBarUtil(Snackbar snackbar) {
         mSnackbar = snackbar;
     }
 
-    public static SnackBarUtils makeShort(View view, String text) {
+    public static SnackBarUtil makeShort(View view, String text) {
         Snackbar snackbar = Snackbar.make(view, text, Snackbar.LENGTH_SHORT);
-        return new SnackBarUtils(snackbar);
+        return new SnackBarUtil(snackbar);
     }
 
-    public static SnackBarUtils makeLong(View view, String text) {
+    public static SnackBarUtil makeLong(View view, String text) {
         Snackbar snackbar = Snackbar.make(view, text, Snackbar.LENGTH_LONG);
-        return new SnackBarUtils(snackbar);
+        return new SnackBarUtil(snackbar);
     }
 
     private View getSnackBarLayout(Snackbar snackbar) {

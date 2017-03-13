@@ -10,9 +10,9 @@ import java.io.ObjectOutputStream;
  *
  * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2011-10-24
  */
-public class ObjectUtils {
+public class ObjectUtil {
 
-    private ObjectUtils() {
+    private ObjectUtil() {
         throw new AssertionError();
     }
 

@@ -23,7 +23,7 @@ import java.io.IOException;
 /**
  * Some effect of images
  */
-public class ImageUtils {
+public class ImageUtil {
     public static final int LEFT = 0;
     public static final int RIGHT = 1;
     public static final int TOP = 3;

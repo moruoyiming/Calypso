@@ -13,7 +13,7 @@ import android.text.TextUtils;
  * Email: 798774875@qq.com
  * Github: https://github.com/moruoyiming
  */
-public class SystemUtils {
+public class SystemUtil {
 
     /**
      * 获取设备的制造商

@@ -18,7 +18,7 @@ import java.util.Iterator;
  * 创建时间：12/29/2016 3:25 PM
  * 修改备注：
  */
-public class JsonUtils {    
+public class JsonUtil {
     public static final String EMPTY = "";
     /** 空的 {@code JSON} 数据 - <code>"{}"</code>。 */    
     public static final String EMPTY_JSON = "{}";
