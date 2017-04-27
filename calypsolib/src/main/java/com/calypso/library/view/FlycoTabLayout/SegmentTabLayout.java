@@ -23,10 +23,11 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.flyco.tablayout.listener.OnTabSelectListener;
-import com.flyco.tablayout.utils.FragmentChangeManager;
-import com.flyco.tablayout.utils.UnreadMsgUtils;
-import com.flyco.tablayout.widget.MsgView;
+import com.calypso.library.R;
+import com.calypso.library.view.FlycoTabLayout.listener.OnTabSelectListener;
+import com.calypso.library.view.FlycoTabLayout.utils.FragmentChangeManager;
+import com.calypso.library.view.FlycoTabLayout.utils.UnreadMsgUtils;
+import com.calypso.library.view.FlycoTabLayout.widget.MsgView;
 
 import java.util.ArrayList;
 
