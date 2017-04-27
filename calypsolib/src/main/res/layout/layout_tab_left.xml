@@ -26,7 +26,7 @@
             android:singleLine="true"/>
     </LinearLayout>
 
-    <com.flyco.tablayout.widget.MsgView
+    <com.calypso.library.view.FlycoTabLayout.widget.MsgView
         android:layout_toRightOf="@+id/ll_tap"
         android:id="@+id/rtv_msg_tip"
         xmlns:mv="http://schemas.android.com/apk/res-auto"
