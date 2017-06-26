@@ -14,11 +14,12 @@ import java.util.Locale;
  * Log日志的工具类
  */
 public class DateUtil {
-    public static final String DATE_JFP_STR = "yyyyMM";
+
     public static final String DATE_FULL_STR = "yyyy-MM-dd HH:mm:ss";
-    public static final String DATE_SMALL_STR = "yyyy-MM-dd";
-    public static final String DATE_TIME_STR = "HH:mm:ss";
     public static final String DATE_KEY_STR = "yyMMddHHmmss";
+    public static final String DATE_SMALL_STR = "yyyy-MM-dd";
+    public static final String DATE_JFP_STR = "yyyyMM";
+    public static final String DATE_TIME_STR = "HH:mm:ss";
     private static final long MILLIS_PER_DAY = 86400000L;
     private static final long INTERVAL_IN_MILLISECONDS = 30000L;
 
